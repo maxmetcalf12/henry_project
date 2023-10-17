@@ -1,8 +1,13 @@
 <script setup>
+import Navbar from '../components/Navbar.vue'
+import DailyGrid from '../components/DailyGrid.vue'
 </script>
 
 <template>
   <main>
-    <h1>Hello world</h1>
+    <navbar />
+    <div class="p-8">
+      <daily-grid />
+    </div>
   </main>
 </template>
